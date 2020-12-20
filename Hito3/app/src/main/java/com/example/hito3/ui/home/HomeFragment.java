@@ -13,11 +13,13 @@ import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 
 import com.example.hito3.R;
+import com.example.hito3.TinyDB;
+
 
 public class HomeFragment extends Fragment {
+    TinyDB tinydb = new TinyDB(context);
 
     private HomeViewModel homeViewModel;
-
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
         homeViewModel =
