@@ -1,5 +1,6 @@
 package com.example.hito3;
 
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.view.Menu;
@@ -19,6 +20,7 @@ import androidx.appcompat.widget.Toolbar;
 public class MainActivity extends AppCompatActivity {
 
     private AppBarConfiguration mAppBarConfiguration;
+    private SharedPreferences SharedPreferences;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
